@@ -1,13 +1,12 @@
-import {RouterProvider, } from 'react-router-dom'
-import {myRouter} from './router.jsx'
 import './App.css'
-import About from '../pages/About.jsx'
+import { RouterProvider } from 'react-router-dom'
+import { myRouter } from './router'
 
 export default function App() {
+
   return (
     <>
-      <RouterProvider router={myRouter}/>
-      <About  />
+    <RouterProvider router={myRouter} />
     </>
   )
 }

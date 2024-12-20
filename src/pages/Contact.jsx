@@ -1,8 +1,9 @@
-
 export default function Contact() {
   return (
     <div>
-    Contact
+      Contact 1
     </div>
   )
+
+
 }

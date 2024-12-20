@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
-
-export default function Header() {
+import { Link } from 'react-router-dom'
+import './Header.css'
+function Header() {
   return (
     <div>
-      <ul style={{display: 'flex', backgroundColor: 'black', width: '900px', height: '40px', alignItems: 'center', margin: '0 auto', listStyleType: 'none', justifyContent: 'space-around' }}>
+      <ul className='header'>
         <li>
           <Link to="/" style={{textDecoration: 'none', color: 'red'}}>Home</Link>
         </li>
@@ -15,5 +15,7 @@ export default function Header() {
         </li>
       </ul>
     </div>
-  );
+  )
 }
+
+export default Header
