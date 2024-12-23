@@ -19,6 +19,9 @@ function Header() {
         <li>
           <Link to="/baykot" style={{textDecoration: 'none', color: 'red'}}>Baykot</Link>
         </li>
+        <li>
+          <Link to="/postman" style={{textDecoration: 'none', color: 'red'}}>Postman</Link>
+        </li>
       </ul>
     </div>
   )

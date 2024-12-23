@@ -7,6 +7,7 @@ import UserInfo from "./pages/UserInfo";
 import CardItem from "./pages/CardItem";
 import Baykot from './Baykot/Baykot.jsx';
 import Service from '../pages/Service.jsx';
+import Postman from '../pages/Postman.jsx'
 
 export const myRouter = createBrowserRouter([
     {
@@ -20,6 +21,7 @@ export const myRouter = createBrowserRouter([
             { path: "card-item/:id", element: <CardItem /> },
             { path: "service", element: <Service /> },
             { path: "baykot", element: <Baykot /> },
+            { path: "postman", element: <Postman /> },
         ]
     }
 ]);
